@@ -1,3 +1,8 @@
+/**
+ * TileMap plugin for LesserPanda
+ * @version 0.1.0
+ * @author Sean Bohan
+ */
 game.module(
   'plugins.tile-map'
 )
