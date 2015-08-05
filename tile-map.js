@@ -44,13 +44,13 @@ game.module(
     this.tiles = null;
     this.tileInstances = [[]];
 
-    game.ParticleContainer.call(this);
+    game.Container.call(this);
 
     this._genTiles(tileset);
     this._instanceMap();
   }
-  TileMap.prototype = Object.create(game.ParticleContainer.prototype);
-  TileMap.prototype.constructor = game.ParticleContainer;
+  TileMap.prototype = Object.create(game.Container.prototype);
+  TileMap.prototype.constructor = game.Container;
 
   /**
    * Map width in tiles
